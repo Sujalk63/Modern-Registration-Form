@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+      <div class="registration">
+        <h1>Registration form</h1>
+  
+        <div class="photoupload">
+          <input class="pic" type="file" placeholder="Upload photo">
+          <p>Upload photo</p>
+        </div>
+  
+      </div>
+  
+      <div class="inputarea">
+        <input type="text" placeholder="Full Name">
+        <input type="text" placeholder="Phone No.">
+        <input type="email" placeholder=" E-mail">
+      </div>
+  
+      <div class="agegender">
+        <div class="age">
+          <label for="#">Age:</label>
+          <input type="text" placeholder="age">
+        </div>
+  
+        <div class="gender">
+          <label>Gender:</label>
+  
+          <div class="male">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+          </div>
+  
+          <div class="female">
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+          </div>
+  
+          <div class="other">
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+          </div>
+        </div>
+  
+        <div class="country">
+          <select name="country" id="country">
+            <option value="">India</option>
+            <option value="">USA</option>
+            <option value="">UK</option>
+          </select>
+        </div>
+      </div>
+  
+      <div class="terms">
+  
+        <h2>Terms and conditions.</h2>
+  
+        <div class="termscondition">
+          <p>1. The user agrees to abide by the terms and conditions outlined.</p>
+          <p>2. Specify that users must be of a certain age.</p>
+          <p>3. Actions such as spamming, harassment, or illegal content are not allowed.</p>
+        </div>
+      
+      </div>
+  
+      <div class="signature">
+
+        <div class="subre">
+          <input type="submit">
+          <input type="reset">
+        </div>
+        <p>Signature ..................</p>
+      </div>
+  
+  
+    </div>
+
+</body>
+
+</html>

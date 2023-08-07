@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* Horizontally centers the content */
+    align-items: center;
+    /* Vertically centers the content */
+    min-height: 100vh;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    font-family: sans-serif;
+}
+
+.outer
+{
+    width: 720px;
+    height: 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(45, 42, 42);
+    border-radius: 5px;
+}
+
+.container {
+
+    background-color: white;
+    width: 700px;
+    height: 700px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border: 2px solid rgb(133, 126, 126);
+    box-shadow: 0.0px 5px 20px 0.0px black;
+}
+
+.inputarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+
+
+    align-items: center;
+}
+
+.inputarea input {
+    border-radius: 5px;
+    border: 0.5px, solid rgb(115, 112, 112);
+    width: 600px;
+    height: 50px;
+    padding-left: 5%;
+    padding-right: 100px;
+    border: 0px solid black;
+    background-color: #8EC5FC;
+}
+
+.inputarea input:focus {
+    outline: none;
+    border: 1px solid rgb(123, 117, 117);
+
+}
+
+.agegender {
+    display: flex;
+    width: 600px;
+    height: 50px;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.age {
+    display: flex;
+    gap: 10px;
+    width: 20%;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: #8EC5FC;
+    border-radius: 5px;
+    border: 0.5px, solid rgb(115, 112, 112);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.age input
+{
+    width: 100%;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+}
+
+.age input:focus {
+    outline: none;
+    border: 1px solid rgb(123, 117, 117);
+}
+
+
+.gender {
+    display: flex;
+    gap: 10px;
+    width: 50%;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: #8EC5FC;
+    border-radius: 5px;
+    border: 0.5px, solid rgb(115, 112, 112);
+}
+
+.country
+{
+    width: 30%;
+    height: 40px;
+    background-color: #8EC5FC;
+    border-radius: 5px;
+    border: 0.5px, solid rgb(115, 112, 112);
+}
+
+.country select{
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+}
+
+.country select:focus
+{
+    outline: none;
+    border: 1px solid rgb(123, 117, 117);
+}
+
+.male .female .other {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.registration {
+    display: flex;
+    height: 100px;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 35px; */
+    /* padding-right: 15px; */
+}
+
+.photoupload {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(193, 186, 186);
+    border-radius: 3px;
+    border: 2px dotted black;
+}
+
+.photoupload input {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.registration h1 {
+    padding-left: 155px;
+}
+
+.photoupload  {
+    display: flex;
+    flex-direction: column;
+}
+
+.photoupload p{
+    font-size: 0.9rem;
+}
+
+.terms
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.termscondition
+{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 15px;
+    font-size: 1rem;
+    padding-right: 180px;
+}
+
+.signature
+{
+    display: flex;
+    width: 600px;
+    height: 15px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+}
+
+.subre
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 20px;
+}
+
+.subre input
+{
+    border-radius: 5px;
+    border: 0.5px, solid rgb(115, 112, 112);
+    width: 40px;
+    height: 20px;
+    border: 0px solid black;
+    background-color: #8EC5FC;
+    font-size: 0.7rem;
+}
+
+
+
+
